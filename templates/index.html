@@ -10,8 +10,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
 </head>
 <body>
-<input type="file" id="file-selector" accept=".csv" multiple >
-<p id='placeholder'></p>
+  <input type="file" id="file-selector" accept=".csv" multiple >
+
+  <p id="placeholder">here</p>
 </body>
 <footer>
 <script type="text/javascript" src={{ url_for('static',filename='js/parse-csv.js') }}></script>
